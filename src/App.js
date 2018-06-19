@@ -4,6 +4,7 @@ import { Route, Switch, NavLink } from 'react-router-dom'
 
 import './App.css';
 import Github from './Github';
+import OpenWeatherMap from './OpenWeatherMap';
 
 class App extends Component {
   render() {
@@ -17,9 +18,13 @@ class App extends Component {
           <li>
             <NavLink to="/github">GitHub</NavLink>
           </li>
+          <li>
+            <NavLink to="/openweathermap">OpenWeatherMap</NavLink>
+          </li>
         </ul>
         <Switch>
           <Route path="/github" component={Github} />
+          <Route path="/openweathermap" component = {OpenWeatherMap} />
           <Route
             render={() => (
               <p>To get started, click one of the links above.</p>
