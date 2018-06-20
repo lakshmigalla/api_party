@@ -27,7 +27,7 @@ class OpenWeatherMap extends Component {
                     alt="OpenWeatherMap"
                     className="logo"
                 />
-                <a href="https://openweathermap.org/help/city_list.txt" target="_blank">
+                <a href="http://openweathermap.org/help/city_list.txt" target="_blank">
                     <h3>Follow this link and use the first column to get city IDs</h3>
                 </a>
                 <h4>(The link may take a little time to load. Please wait patiently)</h4>
