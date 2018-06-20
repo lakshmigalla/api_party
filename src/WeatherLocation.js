@@ -10,7 +10,7 @@ class WeatherLocation extends Component {
                    {
                     main: {
                     //    "temp": ''
-                   },
+                    },
 
                     weather: [
                         {
@@ -37,14 +37,13 @@ class WeatherLocation extends Component {
 
     fetchLocation = () => {
         const { params } = this.props.match
-        fetch(`http://api.openweathermap.org/data/2.5/forecast?id=${params.location}&APPID=41c25b5daf4dfde75e43bce1a5517795&units=imperial`)
+        fetch(`https://api.openweathermap.org/data/2.5/forecast?id=${params.location}&APPID=41c25b5daf4dfde75e43bce1a5517795&units=imperial`)
             .then(response => response.json())
             .then(location => this.setState({ location }))
     }
 
     render() {
         const { location } = this.state
-
         return (
             <div className="WeatherLocation">
                 <h1>City: {location.city.name}</h1>
