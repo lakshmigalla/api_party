@@ -9,23 +9,23 @@ class WeatherLocation extends Component {
                "list": [
                    {
                     "main": {
-                       "temp": 261.45,
-                       "humidity": 79
+                       "temp": '',
+                       "humidity": ''
                    },
 
                     "weather": [
                         {
-                            "main": "Clear",
-                            "description": "clear sky"
+                            "main": '',
+                            "description": ''
                         }
                     ]
                 }
                ],
                "city": {
-                    "name": "Moscow",
+                    "name": '',
                     "coord": {
-                        "lat": 55.7522,
-                        "lon": 37.6156
+                        "lat": '',
+                        "lon": ''
                     }
                }
             }
@@ -52,9 +52,9 @@ class WeatherLocation extends Component {
 
         return (
             <div className="WeatherLocation">
-                <h1>City: {this.state.location.city.name}</h1>
-                <h3>Temperature: {this.state.location.list[0].main.temp} °F</h3>
-                <h3>Weather Description: {this.state.location.list[0].weather[0].description}</h3>
+                <h1>City: {location.city.name}</h1>
+                <h3>Temperature: {location.list[0].main.temp} °F</h3>
+                <h3>Weather Description: {location.list[0].weather[0].description}</h3>
             </div>
         )
     }
