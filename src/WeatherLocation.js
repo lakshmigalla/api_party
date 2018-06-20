@@ -6,14 +6,13 @@ class WeatherLocation extends Component {
 
         this.state = {
             location: {
-               "list": [
+               list: [
                    {
-                    "main": {
-                    //    "temp": '',
-                    //    "humidity": ''
+                    main: {
+                    //    "temp": ''
                    },
 
-                    "weather": [
+                    weather: [
                         {
                             // "main": '',
                             // "description": ''
@@ -21,12 +20,8 @@ class WeatherLocation extends Component {
                     ]
                 }
                ],
-               "city": {
+               city: {
                     // "name": '',
-                    "coord": {
-                        // "lat": '',
-                        // "lon": ''
-                    }
                }
             }
         }
