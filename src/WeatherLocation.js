@@ -9,23 +9,23 @@ class WeatherLocation extends Component {
                "list": [
                    {
                     "main": {
-                       "temp": '',
-                       "humidity": ''
+                    //    "temp": '',
+                    //    "humidity": ''
                    },
 
                     "weather": [
                         {
-                            "main": '',
-                            "description": ''
+                            // "main": '',
+                            // "description": ''
                         }
                     ]
                 }
                ],
                "city": {
-                    "name": '',
+                    // "name": '',
                     "coord": {
-                        "lat": '',
-                        "lon": ''
+                        // "lat": '',
+                        // "lon": ''
                     }
                }
             }

@@ -43,7 +43,7 @@ class OpenWeatherMap extends Component {
                     <div>
                         <button type="submit">
                             Look up weather of city
-                    </button>
+                        </button>
                     </div>
                 </form>
                 <Route path="/openweathermap/:location" component={WeatherLocation} />
