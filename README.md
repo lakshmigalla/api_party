@@ -1,3 +1,5 @@
+This project was developed during Xtern Bootcamp 2018 Session 2 held at Marian University and taught by Davey Strus and Dana Palazzo from Fretless.
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
