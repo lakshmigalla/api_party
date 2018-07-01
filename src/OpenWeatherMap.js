@@ -27,8 +27,8 @@ class OpenWeatherMap extends Component {
                     alt="OpenWeatherMap"
                     className="logo"
                 />
-                <a href="http://openweathermap.org/help/city_list.txt" target="_blank">
-                    <h2>Follow this link and use the first column to get city IDs</h2>
+                <a href="http://bulk.openweathermap.org/sample/" target="_blank">
+                    <h2>Follow this link and download the first json file to get city IDs</h2>
                 </a>
                 <h4>(The link may take a little time to load. Please wait patiently)</h4>
                 <form onSubmit={this.handleSubmit}>
